@@ -9,3 +9,5 @@ fetch(request)
     console.log(data);
     p.innerHTML = JSON.stringify(data.result.properties.name);
   })
+
+// TODO: Make tables and display API data for each category -- people, planets, etc.

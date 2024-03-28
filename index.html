@@ -46,24 +46,65 @@
             </a>
   
             <div class="navbar-dropdown">
-              <a class="navbar-item">
+              <a id="people" role="button" class="navbar-item">
                 People
               </a>
-              <a class="navbar-item is-selected">
+
+              <script type="text/javascript">
+                  document.getElementById("people").onclick = function () {
+                    location.href = "people.html"
+                  };
+              </script>
+              
+              <a id="films" role="button" class="navbar-item is-selected">
                 Films
               </a>
-              <a class="navbar-item">
+
+              <script type="text/javascript">
+                  document.getElementById("films").onclick = function () {
+                    location.href = "films.html"
+                  };
+              </script>
+              
+              <a id="ships" role="button" class="navbar-item">
                 Starships
               </a>
-              <a class="navbar-item">
+              
+              <script type="text/javascript">
+                  document.getElementById("ships").onclick = function () {
+                    location.href = "ships.html"
+                  };
+              </script>
+              
+              <a id="vehicles" role="button" class="navbar-item">
                 Vehicles
               </a>
-              <a class="navbar-item">
+
+              <script type="text/javascript">
+                  document.getElementById("vehicles").onclick = function () {
+                    location.href = "vehicles.html"
+                  };
+              </script>
+              
+              <a id="species" role="button" class="navbar-item">
                 Species
               </a>
-              <a class="navbar-item">
+
+              <script type="text/javascript">
+                  document.getElementById("species").onclick = function () {
+                    location.href = "species.html"
+                  };
+              </script>
+              
+              <a id="planets" role="button" class="navbar-item">
                 Planets
               </a>
+
+              <script type="text/javascript">
+                  document.getElementById("planets").onclick = function () {
+                    location.href = "planets.html"
+                  };
+              </script>
             </div>
           </div>
         </div>
