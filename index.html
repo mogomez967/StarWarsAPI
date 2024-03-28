@@ -1,20 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="dark">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Project</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <script src="script.js" type="module"></script>
+  <script src="script.js" async></script>
 </head>
 
 <body>
   <div class="container">
     <div class="notification is-info">
-      <h1 class="title has-text-centered"><strong>A Star Wars Family Tree</strong></h1>
-      <p class="subtitle has-text-centered">Using the Star Wars API, here is the 
-      Skywalker family history</p>
+      <h1 class="title has-text-centered"><strong>The SWAPI</strong></h1>
+      <p class="subtitle has-text-centered">A visual representation of the data</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <img src="star_wars_logo.jpg">
+        </a>
+  
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+  
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            Home
+          </a>
+  
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Categories
+            </a>
+  
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                People
+              </a>
+              <a class="navbar-item is-selected">
+                Films
+              </a>
+              <a class="navbar-item">
+                Starships
+              </a>
+              <a class="navbar-item">
+                Vehicles
+              </a>
+              <a class="navbar-item">
+                Species
+              </a>
+              <a class="navbar-item">
+                Planets
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="block">
+      <div class="content">
+        <p id="text"></p>
+      </div>
     </div>
   </div>
 </body>
