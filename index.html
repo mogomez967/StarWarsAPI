@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html data-theme="dark">
 
 <head>
   <meta charset="utf-8">
@@ -11,7 +10,7 @@
 
 <body>
   <div class="container">
-    <div class="notification is-primary">
+    <div class="notification is-info">
       <h1 class="title has-text-centered"><strong>The SWAPI</strong></h1>
       <p class="subtitle has-text-centered">A visual representation of the data in the
       Star Wars API</p>
@@ -118,22 +117,31 @@
       <div class="column is-half">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-4by3">
-              <img
-                src="bounties.jpeg"
-                alt="Placeholder image"
-              />
-            </figure>
+            <a id="people_image" role="button">
+              <figure class="image is-4by3">
+                <img
+                  src="bounties.jpeg"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </a>
+            <script type="text/javascript">
+                document.getElementById("people_image").onclick = function () {
+                  location.href = "people.html"
+                };
+            </script>
           </div>
           <div class="card-content">
             <div class="media">
               <div class="media-left">
-                <figure class="image is-48x48">
-                  <img
-                    src="star_wars_logo.jpg"
-                    alt="Placeholder image"
-                  />
-                </figure>
+                <a id="people_image" role="button">
+                  <figure class="image is-48x48">
+                    <img
+                      src="star_wars_logo.jpg"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </a>
               </div>
               <div class="media-content">
                 <p class="title is-4">People</p>
@@ -153,12 +161,19 @@
       <div class="column is-half">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-4by3">
-              <img
-                src="films.jpeg"
-                alt="Placeholder image"
-              />
-            </figure>
+            <a id="film_image" role="button">
+              <figure class="image is-4by3">
+                <img
+                  src="films.jpeg"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </a>
+            <script type="text/javascript">
+                document.getElementById("film_image").onclick = function () {
+                  location.href = "films.html"
+                };
+            </script>
           </div>
           <div class="card-content">
             <div class="media">
@@ -193,12 +208,19 @@
       <div class="column is-half">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-4by3">
-              <img
-                src="fett_ship.jpeg"
-                alt="Placeholder image"
-              />
-            </figure>
+            <a id="ship_image" role="button">
+              <figure class="image is-4by3">
+                <img
+                  src="fett_ship.jpeg"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </a>
+            <script type="text/javascript">
+                document.getElementById("ship_image").onclick = function () {
+                  location.href = "ships.html"
+                };
+            </script>
           </div>
           <div class="card-content">
             <div class="media">
@@ -227,12 +249,19 @@
       <div class="column is-half">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-4by3">
-              <img
-                src="atat.jpeg"
-                alt="Placeholder image"
-              />
-            </figure>
+            <a id="vehicle_image" role="button">
+              <figure class="image is-4by3">
+                <img
+                  src="atat.jpeg"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </a>
+            <script type="text/javascript">
+                document.getElementById("vehicle_image").onclick = function () {
+                  location.href = "vehicles.html"
+                };
+            </script>
           </div>
           <div class="card-content">
             <div class="media">
@@ -266,12 +295,19 @@
       <div class="column is-half">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-4by3">
-              <img
-                src="sw_ppl.jpeg"
-                alt="Placeholder image"
-              />
-            </figure>
+            <a id="ppl_image" role="button">
+              <figure class="image is-4by3">
+                <img
+                  src="sw_ppl.jpeg"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </a>
+            <script type="text/javascript">
+                document.getElementById("ppl_image").onclick = function () {
+                  location.href = "species.html"
+                };
+            </script>
           </div>
           <div class="card-content">
             <div class="media">
@@ -299,12 +335,19 @@
       <div class="column is-half">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-4by3">
-              <img
-                src="yavin4.jpeg"
-                alt="Placeholder image"
-              />
-            </figure>
+            <a id="planet_image" role="button">
+              <figure class="image is-4by3">
+                <img
+                  src="yavin4.jpeg"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </a>
+            <script type="text/javascript">
+                document.getElementById("planet_image").onclick = function () {
+                  location.href = "planets.html"
+                };
+            </script>
           </div>
           <div class="card-content">
             <div class="media">
