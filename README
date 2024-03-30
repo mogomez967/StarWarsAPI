@@ -1,5 +1,5 @@
 This project is to showcase API calls to the Star Wars API.
 The goal was to make a simple, static application. My idea was
-to use the information from the API to create a family tree for one
-of the most famous (or infamous) families in the Star Wars lore --
-the Skywalkers
+to use the information from the API to create a visual
+representation (in a table) of the type of information
+sent in a successful GET API call. 
