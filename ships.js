@@ -1,3 +1,8 @@
+async function waiting(){
+  var load = document.getElementById("table_ships");
+  load.innerHTML = "<tr><td colspan=9><progress class='progress is-large is-info' max='100'>60%</progress></td></tr>";
+}
+
 async function getShips(){
   const response = await fetch("https://www.swapi.tech/api/starships/");
   const data=await response.json();
@@ -14,4 +19,5 @@ async function getShips(){
   document.getElementById("table_ships").innerHTML = temp;
 }
 
+waiting();
 getShips();

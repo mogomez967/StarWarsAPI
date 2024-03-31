@@ -1,3 +1,8 @@
+async function waiting(){
+  var load = document.getElementById("table_films");
+  load.innerHTML = "<tr><td colspan=9><progress class='progress is-large is-info' max='100'>60%</progress></td></tr>";
+}
+
 async function getPeople(){
   const response = await fetch("https://www.swapi.tech/api/films/");
   console.log(response);
@@ -12,4 +17,5 @@ async function getPeople(){
   document.getElementById("table_films").innerHTML = temp;
 }
 
+waiting();
 getPeople();
