@@ -18,4 +18,4 @@ received in a successful GET API call from the SWAPI.
 7. Click on this green text and it will open up more information such as _Listening on ports:_ and a _Dev URL_. Select the green dev url and it will open up a new tab showing my app on a dedicated, full webpage.
 8. From there, navigate by using the navbar or selecting the images on the Homescreen.
 
-_Notes:_ there are a coupe of known bugs and provisos. Every consecutive API call will return back slower and slower by 500ms as per the design of SWAPI.dev. Another bug is that the rightmost end of the tables seems to be missing its border in some cases. I do not know why at the moment but no information has been cut off.
+_Notes:_ there are a couple of known bugs and provisos. Every consecutive API call will return back slower and slower by 500ms as per the design of SWAPI.dev. Another bug is that the rightmost end of the tables seems to be missing its border in some cases. I do not know why at the moment but no information has been cut off.
